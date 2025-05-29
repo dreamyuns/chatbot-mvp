@@ -1,0 +1,51 @@
+# Python 관련 파일들 (자동 생성되는 것들)
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# 가상환경 폴더 (용량이 커서 Git에 올리지 않음)
+venv/
+env/
+ENV/
+.venv/
+
+# 데이터베이스 파일 (개인 데이터 보호)
+*.db
+*.sqlite3
+instance/
+
+# 환경 변수 파일 (비밀번호, API 키 등 보안 정보)
+.env
+.env.local
+.env.production
+
+# IDE 설정 파일 (개인 설정이라 공유할 필요 없음)
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# 운영체제가 만드는 파일들
+.DS_Store        # Mac
+Thumbs.db        # Windows
+.DS_Store?
+._*
+
+# 로그 파일
+*.log
+logs/
+
+# 임시 파일
+*.tmp
+*.temp
+*~
+
+# 백업 파일
+*.bak
+*.backup
